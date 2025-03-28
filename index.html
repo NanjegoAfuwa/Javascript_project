@@ -11,9 +11,47 @@
 <body>
     <div class="book-container ">
         <h2 class="fw bold text-primary"><i class="bi bi-book-half"></i>
-        Book Managemet System</h2>
+        BOOK MANAGEMENT SYSTEM</h2>
     </div>
-    <button class="btn btn-info mt-3">Add book</button>
-  
+    <!-- A button that adds a pop up modal -->
+    <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#addbook" type="add">+Add to Your Collection</button><br><br>
+
+     <!-- Search Bar -->
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Search books..." aria-label="Search">
+        <div class="input-group-append"></div>
+    </div>
+
+
+    <button class="btn btn-primary" id="btn">All books</button>
+    &nbsp;&nbsp;<button class="btn btn-warning" id="btn">favorites</button>
+    &nbsp;&nbsp;<button class="btn btn-success" id="btn">unread</button>
+    &nbsp;&nbsp;<button class="btn btn-info " id="btn">read</button>
+
+    <form class="px-4" action="">
+    <!-- modal -->
+    <div //class="modal fade" id="addbook" role="dialog">
+        <div class="modal_dialog">
+
+
+            <!-- modal content -->
+             <div class="modal-content">
+                <div class="modal-header bg-primary">
+                    <h3 class="modal-title">Add to your collection</h3>
+                </div>
+                <div class="modal-body">
+                    <div class="one">
+                        <p class="text-primary"><strong>Book Title</strong></p>
+                        <input type="text" name="title" class="form-control">
+                    </div>
+                </div>
+            </div>
+
+
+            
+        </div>
+    </div>
+    </form>
+
 </body>
 </html>

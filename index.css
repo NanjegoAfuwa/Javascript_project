@@ -1,10 +1,18 @@
-.ab{
-    height: 20px;
-    width: 20px;
-    font-size: 10px;
-}
 
-.btn{
+button{
     border-radius: 20px;
     cursor: pointer;
+    text-transform: uppercase;
 }
+#btn:hover{
+    background-color:black;
+}
+#btn{
+    color: white;
+    font-weight: bolder;
+    display:flex
+}
+h2{
+    text-align: center;
+}
+
