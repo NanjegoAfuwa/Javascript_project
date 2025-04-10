@@ -1,5 +1,5 @@
 body {
-    background-color: #d9e6d6;
+    background-color: #F8F9FA;
     align-items: center;
 }
   
@@ -9,20 +9,6 @@ body {
   
 .nav-tabs .nav-link {
     font-weight: bold;
-}
-  
-.nav-tabs .nav-link {
-    color: #131516 !important;
-    font-weight: bold;
-}
-  
-.nav-tabs .nav-link.active {
-    background-color: white;
-    color: #0a95c6; 
-}
-  
-.nav-tabs .nav-link:hover {
-    color: rgba(0, 55, 255, 0.505) !important;
 }
   
 .card img {

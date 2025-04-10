@@ -190,5 +190,11 @@ function searchBooks(input) {
   // If no books match, show a "No results found" message
   if (filteredBooks.length === 0) {
     bookList.innerHTML = `<p class="text-center text-muted">No books found</p>`;
+    return;
   }
 }
+
+// this code loads the bootlist at the initial loading of the page
+document.addEventListener("DOMContentLoaded", () => {
+  loadBooks();  // Load books as soon as the page is ready
+});
